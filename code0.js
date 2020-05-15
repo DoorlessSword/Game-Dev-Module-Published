@@ -20,7 +20,7 @@ gdjs.TitleCode.condition1IsTrue_1 = {val:false};
 gdjs.TitleCode.condition2IsTrue_1 = {val:false};
 
 
-gdjs.TitleCode.mapOfGDgdjs_46TitleCode_46GDStartButtonObjects1Objects = Hashtable.newFrom({"StartButton": gdjs.TitleCode.GDStartButtonObjects1});gdjs.TitleCode.eventsList0x5b6e18 = function(runtimeScene) {
+gdjs.TitleCode.mapOfGDgdjs_46TitleCode_46GDStartButtonObjects1Objects = Hashtable.newFrom({"StartButton": gdjs.TitleCode.GDStartButtonObjects1});gdjs.TitleCode.eventsList0x5b70b8 = function(runtimeScene) {
 
 {
 
@@ -53,13 +53,13 @@ gdjs.TitleCode.condition1IsTrue_1.val = gdjs.evtTools.input.cursorOnObject(gdjs.
 gdjs.TitleCode.conditionTrue_1.val = true && gdjs.TitleCode.condition0IsTrue_1.val && gdjs.TitleCode.condition1IsTrue_1.val;
 }
 }if (gdjs.TitleCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Town", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Controls", false);
 }}
 
 }
 
 
-}; //End of gdjs.TitleCode.eventsList0x5b6e18
+}; //End of gdjs.TitleCode.eventsList0x5b70b8
 
 
 gdjs.TitleCode.func = function(runtimeScene) {
@@ -76,7 +76,7 @@ gdjs.TitleCode.GDStartButtonObjects2.length = 0;
 gdjs.TitleCode.GDStartObjects1.length = 0;
 gdjs.TitleCode.GDStartObjects2.length = 0;
 
-gdjs.TitleCode.eventsList0x5b6e18(runtimeScene);
+gdjs.TitleCode.eventsList0x5b70b8(runtimeScene);
 return;
 
 }

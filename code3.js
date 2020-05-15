@@ -30,7 +30,7 @@ gdjs.pauseMenuCode.condition1IsTrue_2 = {val:false};
 gdjs.pauseMenuCode.condition2IsTrue_2 = {val:false};
 
 
-gdjs.pauseMenuCode.mapOfGDgdjs_46pauseMenuCode_46GDResumeButtonObjects2Objects = Hashtable.newFrom({"ResumeButton": gdjs.pauseMenuCode.GDResumeButtonObjects2});gdjs.pauseMenuCode.mapOfGDgdjs_46pauseMenuCode_46GDExitButtonObjects1Objects = Hashtable.newFrom({"ExitButton": gdjs.pauseMenuCode.GDExitButtonObjects1});gdjs.pauseMenuCode.eventsList0x5b6e18 = function(runtimeScene) {
+gdjs.pauseMenuCode.mapOfGDgdjs_46pauseMenuCode_46GDResumeButtonObjects2Objects = Hashtable.newFrom({"ResumeButton": gdjs.pauseMenuCode.GDResumeButtonObjects2});gdjs.pauseMenuCode.mapOfGDgdjs_46pauseMenuCode_46GDExitButtonObjects1Objects = Hashtable.newFrom({"ExitButton": gdjs.pauseMenuCode.GDExitButtonObjects1});gdjs.pauseMenuCode.eventsList0x5b70b8 = function(runtimeScene) {
 
 {
 
@@ -111,7 +111,7 @@ gdjs.pauseMenuCode.conditionTrue_1.val = true && gdjs.pauseMenuCode.condition0Is
 }
 
 
-}; //End of gdjs.pauseMenuCode.eventsList0x5b6e18
+}; //End of gdjs.pauseMenuCode.eventsList0x5b70b8
 
 
 gdjs.pauseMenuCode.func = function(runtimeScene) {
@@ -132,7 +132,7 @@ gdjs.pauseMenuCode.GDResumeObjects2.length = 0;
 gdjs.pauseMenuCode.GDQuitObjects1.length = 0;
 gdjs.pauseMenuCode.GDQuitObjects2.length = 0;
 
-gdjs.pauseMenuCode.eventsList0x5b6e18(runtimeScene);
+gdjs.pauseMenuCode.eventsList0x5b70b8(runtimeScene);
 return;
 
 }
